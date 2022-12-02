@@ -1,0 +1,14 @@
+from microbit import *
+#Created by: Daniel Jeffrey
+#Created on: Dec 2, 2022
+#This program is used to manipulate a servo's movements
+
+pin0.set_analog_period(20)
+
+while True: 
+	pin2.write_analog(80)
+	sleep(500)
+	pin2.write_analog(55)
+	sleep(500)
+	pin2.write_analog(105)
+	sleep(500)
